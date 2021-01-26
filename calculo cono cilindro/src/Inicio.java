@@ -14,18 +14,21 @@ public class Inicio {
 			op.trianguloarea();
 			op.imprimir();
 
+		//calculo de una esfera
 		System.out.println("Calculo del Volumen de una esfera");
 		VolumenEsfera op1 = new VolumenEsfera();
 			op1.leerNumeros();
 			op1.VolumenEsferaResultado();
 			op1.imprimir();
-
+		
+		//calculo de un cono
 		System.out.println("Calculo del Volumen de un Cono");
 		VolumenCono op2 = new VolumenCono();
 			op2.leerNumeros();
 			op2.VolumenConoResultado();
 			op2.imprimir();
-		
+
+		//calculo de un cilindro
 		System.out.println("Calculo del Volumen de una Cilindro");
 		VolumenCilindro op3 = new VolumenCilindro();
 			op3.leerNumeros();
