@@ -20,8 +20,8 @@ public class VolumenCono {
 					Scanner lee1 = new Scanner (System.in);
 					radio=lee1.nextFloat();
 					System.out.print("Ingrese el valor hipotenusa=");
-					Scanner lee1 = new Scanner (System.in);
-					hipotenusa=lee1.nextFloat();
+					Scanner lee2 = new Scanner (System.in);
+					hipotenusa=lee2.nextFloat();
 					
 				}
 
@@ -35,6 +35,6 @@ public class VolumenCono {
 					System.out.println("El volumen del cono es = "+ volumen);
 					
 				}
-	}
+	
 	
 }

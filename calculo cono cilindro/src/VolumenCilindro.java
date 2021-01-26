@@ -18,8 +18,8 @@ public class VolumenCilindro {
 					Scanner lee1 = new Scanner (System.in);
 					radio=lee1.nextFloat();
 					System.out.print("Ingrese el valor hipotenusa=");
-					Scanner lee1 = new Scanner (System.in);
-					hipotenusa=lee1.nextFloat();
+					Scanner lee2 = new Scanner (System.in);
+					hipotenusa=lee2.nextFloat();
 					
 				}
 				
@@ -33,7 +33,7 @@ public class VolumenCilindro {
 					System.out.println("El volumen del Cilindro es = "+ volumen);
 					
 				}
-		}
+		
 
 	
-};
+}

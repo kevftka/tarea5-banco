@@ -18,7 +18,8 @@ final float PI = Float.parseFloat("3.1416");
 			
 		}
 		public void VolumenEsferaResultado(){
-			volumen = (3/4)*PI*(radio*radio*radio);
+			
+			volumen = 4*PI*(radio*radio*radio)/3;
 		}
 		
 
