@@ -24,7 +24,7 @@ public class VolumenCono {
 					hipotenusa=lee1.nextFloat();
 					
 				}
-				
+
 				public void VolumenConoResultado(){
 					volumen = (PI* (radio*radio)*hipotenusa)/3 ;
 				}
@@ -35,6 +35,6 @@ public class VolumenCono {
 					System.out.println("El volumen del cono es = "+ volumen);
 					
 				}
-		}
+	}
 	
 }
