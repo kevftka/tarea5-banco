@@ -13,20 +13,20 @@ public class Inicio {
 			op.trianguloarea();
 			op.imprimir();
 
-		VolumenEsfera op = new VolumenEsfera();
-			op.leerNumeros();
-			op.VolumenEsferaResultado();
-			op.imprimir();
+		VolumenEsfera op1 = new VolumenEsfera();
+			op1.leerNumeros();
+			op1.VolumenEsferaResultado();
+			op1.imprimir();
 
-		VolumenCono op = new VolumenCono();
-			op.leerNumeros();
-			op.VolumenConoResultado();
-			op.imprimir();
+		VolumenCono op2 = new VolumenCono();
+			op2.leerNumeros();
+			op2.VolumenConoResultado();
+			op2.imprimir();
 		
-		VolumenCilindro op = new VolumenCilindro();
-			op.leerNumeros();
-			op.VolumenCilindroResultado();
-			op.imprimir();
+		VolumenCilindro op3 = new VolumenCilindro();
+			op3.leerNumeros();
+			op3.VolumenCilindroResultado();
+			op3.imprimir();
 		
 		
 	
