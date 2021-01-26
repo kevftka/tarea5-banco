@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //clase de entrada
-public class Calculomate {
+public class CalculoMate {
 float altura;
 float base;
 float recA, triA;
@@ -11,10 +11,10 @@ float recA, triA;
 		public void leerNumeros(){
 			System.out.print("Ingrese el valor A=");
 			Scanner lee1 = new Scanner (System.in);
-			altura=lee1.nextInt();
+			altura=lee1.nextFloat();
 			System.out.print("ingrese valor B=");
 			Scanner lee2 = new Scanner (System.in);
-			base=lee2.nextInt();
+			base=lee2.nextFloat();
 		}
 		public void rectanguloarea(){
 			recA = base * altura/2;
