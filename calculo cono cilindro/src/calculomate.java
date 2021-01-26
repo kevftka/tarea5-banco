@@ -23,9 +23,7 @@ float recA, triA;
 			triA = base * altura/2;
 		}
 		public void imprimir(){
-			System.out.println("Universidad Tcnologica de Panama");
-			System.out.println("Elias Vega 8-938-562, Kevin Castillo 8-928");
-			System.out.println("Uso del constructor OperacionMatematica");
+			
 			System.out.println("El area del rectangulo es = "+ recA);
 			System.out.println("El area del triangulo es = "+ triA);
 		}

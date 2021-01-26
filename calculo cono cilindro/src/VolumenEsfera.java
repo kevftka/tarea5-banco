@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class VolumenEsfera {
 float radio;
-float hipotenusa;
 float volumen;
 
 
@@ -19,7 +18,7 @@ final float PI = Float.parseFloat("3.1416");
 			
 		}
 		public void VolumenEsferaResultado(){
-			volumen = (3/4)*PI*radio;
+			volumen = (3/4)*PI*(radio*radio*radio);
 		}
 		
 
